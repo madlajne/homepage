@@ -1,0 +1,33 @@
+.naglowek {
+    color: #473434;
+    background-color: beige;
+}
+
+.przywitanie {
+    color: darkslateblue;
+    background-color: beige;
+}
+
+.zajecia {
+    color: #201111;
+    background-color: beige;
+}
+
+.tekst {
+    color: #201111;
+    background-color: beige;
+}
+
+.pytanie {
+    color: darkred;
+    text-shadow: 1px 2px 2px beige;
+    box-shadow: 6px 0px #8f889b52;
+}
+
+.tlo {
+    background-color: beige;
+}
+
+.dark {
+    background-color: bisque;
+}
