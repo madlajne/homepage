@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    margin: auto;
+    max-width: 1000px;
+    background-color: #ffffff;
+    color: black;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.header {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 2px;
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.header__title {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.header__welcome {
+    text-align: center;
+}
+
+.header__button {
+    margin-left: 40%;
+    background-color: #77735f7f;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    color: rgb(0 0 0);
+    border-radius: 10px;
+}
+
+.header__button:focus {
+    outline: 2px solid black;
+
+}
+
+.header__image {
+    margin-left: 32%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__listItem {
+    margin: 10px;
+}
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation__link:visited {
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 2px solid black;
+
+}
+
+.navigation__link:hover {
+    color: black;
+
+}
+
+.section__email {
+    color: black;
+}
+
+.section__email:focus {
+    outline: 2px solid black;
+
+}
+
+.main {
+    text-align: center;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin:auto;
+}
+
+.table__caption{
+    background-color: #756c6b;
+    color: #eee;
+}
+
+.table__cell {
+    border: 1px solid #eee;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    color: white;
+    background-color: #A3736E;
+}
+
+.table__row:nth-child(even) {
+    background: #eee;
+}
+
+.table__row:hover {
+    background-color: #aea4a4;
+}
+
+
+.dark {
+    background-color: #7e828864;
+}
+
+.aside {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.aside__unorderedList {
+    list-style-type: none;
+}
+
+.aside__listItem {
+    margin: 5px;
+}
+
+.aside__link {
+    color: rgb(136, 84, 84);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aside__link:hover {
+    color: black;
+}
+
+.aside__link:focus {
+    outline: 2px solid black;
+
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
